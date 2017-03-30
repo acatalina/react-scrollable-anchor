@@ -37,7 +37,7 @@ class Manager {
   }
 
   goToTop = () => {
-    this.forcedHash = true
+    this.forcedHash = false
     window.scroll(0,0)
     removeHash()
   }
